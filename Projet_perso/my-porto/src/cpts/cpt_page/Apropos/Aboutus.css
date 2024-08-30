@@ -1,0 +1,89 @@
+
+
+.taille{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+}
+.presentation{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 13px;
+   
+}
+
+
+.specialite{
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.info{
+    margin-top: 20px;
+    width:fit-content;
+    height: 40px ;
+    color: #fff;
+}
+/* cadre photo*/
+.cadre{
+    border: 1px solid #ffff;
+    border-radius: 10px 0 10px 0 ;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+}
+
+/* Section About me*/
+
+.titre{
+
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+
+}
+.sous-titre{
+    transform: translateX(-200px);
+    opacity: 0;
+    transition: transform 1s,
+                opacity 1s linear;
+}
+
+.sous-titre.active{
+    transform: translateX(0);
+    opacity: 1;
+}
+.cercle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: rgb(241, 80, 5);
+}
+
+
+.outer{
+    width: 124.3125px;
+    height:124.3125px;
+    border-radius: 50%;
+    box-shadow: inset -2px -2px 8px #d6d6d6;
+}
+.inner{
+    width: 94.5px;
+    height: 94.5px;
+    border-radius: 50%;
+    box-shadow: 0 1px 8px #969696;
+}
+
+.backgroud{
+    fill: none;
+    stroke-width: 15px;
+}
+.progress{
+    fill: none;
+    stroke-width: 15px;
+    stroke: rgb(253, 208, 6);
+   
+}

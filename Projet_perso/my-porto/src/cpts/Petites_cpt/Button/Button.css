@@ -1,0 +1,10 @@
+.taille{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+}
+.btn {
+    @apply bg-[#ffffff] text-[#099fe3]  ring-1 ring-opacity-30 ring-[#099fe3] hover:bg-gradient-to-r hover:ring-opacity-100    hover:from-[#099fe3] hover:to-[#644795] hover:text-ellipsis hover:ring-[#ffffff] hover:text-white hover:duration-[600ms]
+
+}

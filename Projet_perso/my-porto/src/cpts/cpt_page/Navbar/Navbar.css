@@ -1,0 +1,45 @@
+.tailles{
+    font-size: 15px;
+}
+
+
+/* fusioin entre le pading et la bordure*/
+
+
+.navbar{
+    background-color: #fafafa;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.397);
+    z-index: 1000;
+}
+
+/*pour le bouton contacter*/
+.btn {
+    @apply bg-[#c2c1c1] ring-1 ring-gray-700 text-gray-900    hover:bg-gray-900 hover:text-white hover:duration-[600ms]
+
+}
+/* pour la taille des texte du navbar*/
+.taille{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+}
+/*pour le soulignement survoler*/
+.liknav a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 1.5px;
+    background: rgb(86, 61, 228);;
+    transition: width 0.3s, left 0.3s;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    
+}
+
+.liknav a:hover::after{
+    width: 100%;
+    left: 0;
+    
+}
